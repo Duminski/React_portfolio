@@ -4,8 +4,7 @@ class Background extends Component {
   render() {
     return (
       <div>
-        <h2>Background</h2>
-        <p>Parcours scolaire</p>
+        <h2>PARCOURS</h2>
       </div>
     );
   }

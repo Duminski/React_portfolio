@@ -4,55 +4,69 @@
 }
 
 body {
+  color: #fff;
+  text-align: center;
   font-family: 'AlienLeague', Arial, sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  background-image: url('./assets/img/mist_4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 20px;
 }
-
 nav {
   margin: 0 auto;
   text-align: center;
-  color: #000;
 }
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #fff;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
 }
 nav li {
-  margin-left:2px;
-  display: inline;
+  margin: 50px;
+  display: inline-block;
 }
 nav li a {
   display: inline-block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0px 16px;
   text-decoration: none;
+  color: #fff;
+  font-size: 20px;
 }
 nav li a:hover {
-  background-color: #555;
+  display: inline-block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+nav li a:hover, nav li a:focus, nav li a:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
 }
 nav li a:visited {
-  color: #000;
+  color: #fff;
 }
-
-/* ---- reset ---- */
-canvas{
-  display: block;
-  vertical-align: bottom;
+h1 {
+  font-size: 50px;
 }
-/* ---- particles.js container ---- */
-#particles-js{
-  position:absolute;
-  width: 100%;
+#cont-home {
+  position: relative;
   height: 100%;
-  background-color: #474b64;
-  background-repeat: no-repeat;
-  background-size: 20%;
-  background-position: 50% 50%;
-} 
+  width: 50%;
+  margin: 0 auto;
+  vertical-align: middle;
+}
