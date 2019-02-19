@@ -8,7 +8,7 @@ class Background extends Component {
 
       <div class="tl-item">
 
-        <div class="tl-bg" style={{backgroundImage: "url('https://placeimg.com/801/801/nature')"}}></div>
+        <div class="tl-bg-first"></div>
 
         <div class="tl-year">
           <p class="f2 heading--sanSerif">2017</p>
@@ -23,30 +23,32 @@ class Background extends Component {
 
       <div class="tl-item">
 
-        <div class="tl-bg" style={{backgroundImage: "url('https://placeimg.com/802/802/nature')"}}></div>
+        <div class="tl-bg-second"></div>
 
         <div class="tl-year">
-          <p class="f2 heading--sanSerif">2013</p>
+          <p class="f2 heading--sanSerif">Depuis 2017</p>
         </div>
 
         <div class="tl-content">
-          <h1 class="f3 text--accent ttu">Vestibulum laoreet lorem</h1>
-          <p>Morbi sed nisl et arcu.</p>
+          <h1 class="f3 text--accent ttu">DUT Informatique en alternance</h1>
+          <p>2ème année de DUT Informatique en alternance.</p>
         </div>
 
       </div>
 
       <div class="tl-item">
 
-        <div class="tl-bg" style={{backgroundImage: "url('https://placeimg.com/803/803/nature')"}}></div>
+        <div class="tl-bg-third"></div>
 
         <div class="tl-year">
-          <p class="f2 heading--sanSerif">2014</p>
+          <p class="f2 heading--sanSerif">Depuis 2017</p>
         </div>
 
         <div class="tl-content">
-          <h1 class="f3 text--accent ttu">Phasellus mauris elit</h1>
-          <p>Nulla eros odio, egestas quis efficitur vel, pretium sed.</p>
+          <h1 class="f3 text--accent ttu">Apprentissage en entreprise</h1>
+          <p>Intégration chez Métal Déployé Resistor à Montbard. <br/>Entreprise
+            du secteur industriel vendant des produits à base de résistances
+            électriques.</p>
         </div>
 
       </div>

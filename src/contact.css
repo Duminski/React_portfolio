@@ -1,0 +1,13 @@
+#cv {
+  position: absolute;
+  color: #fff;
+  top: 15%;
+  width: 100%;
+  margin: 0 auto;
+}
+a {
+  color: #fff;
+}
+a:visited {
+  color: #fff;
+}

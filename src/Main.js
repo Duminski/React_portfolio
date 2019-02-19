@@ -7,8 +7,8 @@ import {
 } from "react-router-dom";
 import Home from "./Home";
 import Background from "./Background";
+import Skills from "./Skills";
 import Projects from "./Projects";
-import Cv from "./Cv";
 import Contact from "./Contact";
 import './Home.css';
 
@@ -37,16 +37,16 @@ class Main extends Component {
             <ul className="header">
               <li><NavLink to="/">Accueil</NavLink></li>
               <li><NavLink to="/background">Parcours</NavLink></li>
+              <li><NavLink to="/skills">Compétences</NavLink></li>
               <li><NavLink to="/projects">Projets</NavLink></li>
-              <li><NavLink to="/cv">CV</NavLink></li>
-              <li><NavLink to="/contact">Contact</NavLink></li>
+              <li><NavLink to="/contact">CV et contact</NavLink></li>
             </ul>
           </nav>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/background" component={Background}/>
+            <Route path="/skills" component={Skills}/>
             <Route path="/projects" component={Projects}/>
-            <Route path="/cv" component={Cv}/>
             <Route path="/contact" component={Contact}/>
           </div>
         </div>

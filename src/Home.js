@@ -10,7 +10,10 @@ class Home extends Component {
 
           <p>Je suis une étudiante/apprentie en DUT informatique à la recherche
           d'une alternance pour 3 ans en école d'ingénieurs plutôt dans le
-          domaine de la sécurité informatique ainsi que dans le spatial.
+          domaine de la sécurité informatique ainsi que dans le spatial.<br/>
+          J'ai acquis beaucoup de connaissances dans le domaine de l'informatique avec ces
+          deux années ainsi que les compétences de communication, développées lors des
+          périodes entreprise.<br/>
           N'hésitez pas à consulter les quelques onglets si vous êtes intéressés ;) !</p>
         </div>
 
