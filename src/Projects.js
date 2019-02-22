@@ -27,7 +27,7 @@ class Projects extends Component {
             démo. Celui-ci m'a également perfectionné dans le langage SQL et il
             m'a surtout fait découvrir toutes les possibilités qu'offre ce langage.
             <br/><br/>
-            <a target='_blank' href='https://github.com/Duminski/demo_vbnet'>
+            <a target='_blank' rel="noopener noreferrer" href='https://github.com/Duminski/demo_vbnet'>
             https://github.com/Duminski/demo_vbnet
             </a>
             </p>
@@ -45,7 +45,7 @@ class Projects extends Component {
             un aéroclub fictif. En parallèle des acqis techniques, cela m'a fait
             apprendre la gestion d'une équipe ainsi que l'organisation de travail.
             <br/><br/>
-            <a target='_blank' href='https://github.com/Duminski/Simple-HTML-CSS-Website-Project'>
+            <a target='_blank' rel="noopener noreferrer" href='https://github.com/Duminski/Simple-HTML-CSS-Website-Project'>
             https://github.com/Duminski/Simple-HTML-CSS-Website-Project
             </a>
             </p>

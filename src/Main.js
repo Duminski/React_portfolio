@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ParticleComponent from "./ParticleComponent";
+/*import ParticleComponent from "./ParticleComponent";*/
 import {
   Route,
   NavLink,
