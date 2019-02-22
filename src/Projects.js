@@ -5,56 +5,56 @@ class Projects extends Component {
   render() {
     return (
 
-      <div class="row example-centered">
-      <div class="col-md-12 example-title">
-          <h2>Centered Timeline</h2>
-          <p>Medium devices (desktops, 992px and up).</p>
+      <div id="projects">
+
+        <div class="card">
+          <div class="header">
+            <h3>Logiciel de cotation de banc de charge</h3>
+            <p class="desc">Développement d'un outil de cotation de banc de charge
+            en langage VB .NET associé à une base de donnée SQL Server.
+            Ce projet est en développement dans le cadre de mon apprentissage
+            en entreprise. </p>
+            <p>Depuis juin 2018</p>
+          </div>
+        </div>
+
+
+
+        <div class="card">
+          <div class="header">
+            <h3>Projet démo VB .NET</h3>
+            <p class="desc">Afin de découvrir le langage VB .NET, j'ai réalisé un petit projet
+            démo. Celui-ci m'a également perfectionné dans le langage SQL et il
+            m'a surtout fait découvrir toutes les possibilités qu'offre ce langage.
+            <br/><br/>
+            <a target='_blank' href='https://github.com/Duminski/demo_vbnet'>
+            https://github.com/Duminski/demo_vbnet
+            </a>
+            </p>
+            <p>Janvier-Février 2018</p>
+          </div>
+        </div>
+
+
+
+        <div class="card">
+          <div class="header">
+            <h3>Création d'un site statique</h3>
+            <p class="desc">Lors du premier semestre à l'université, nous avons dû développer
+            en équipe de 4 un site statique en langage HTML/CSS. Nous avions pour sujet
+            un aéroclub fictif. En parallèle des acqis techniques, cela m'a fait
+            apprendre la gestion d'une équipe ainsi que l'organisation de travail.
+            <br/><br/>
+            <a target='_blank' href='https://github.com/Duminski/Simple-HTML-CSS-Website-Project'>
+            https://github.com/Duminski/Simple-HTML-CSS-Website-Project
+            </a>
+            </p>
+            <p>Septembre-Décembre 2017</p>
+          </div>
+        </div>
+
       </div>
-      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-          <ul class="timeline timeline-centered">
-              <li class="timeline-item">
-                  <div class="timeline-info">
-                      <span>March 12, 2016</span>
-                  </div>
-                  <div class="timeline-marker"></div>
-                  <div class="timeline-content">
-                      <h3 class="timeline-title">Event Title</h3>
-                      <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                          eu pede mollis pretium. Pellentesque ut neque.</p>
-                  </div>
-              </li>
-              <li class="timeline-item">
-                  <div class="timeline-info">
-                      <span>March 23, 2016</span>
-                  </div>
-                  <div class="timeline-marker"></div>
-                  <div class="timeline-content">
-                      <h3 class="timeline-title">Event Title</h3>
-                      <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                          eu pede mollis pretium. Pellentesque ut neque. </p>
-                  </div>
-              </li>
-              <li class="timeline-item period">
-                  <div class="timeline-info"></div>
-                  <div class="timeline-marker"></div>
-                  <div class="timeline-content">
-                      <h2 class="timeline-title">April 2016</h2>
-                  </div>
-              </li>
-              <li class="timeline-item">
-                  <div class="timeline-info">
-                      <span>April 02, 2016</span>
-                  </div>
-                  <div class="timeline-marker"></div>
-                  <div class="timeline-content">
-                      <h3 class="timeline-title">Event Title</h3>
-                      <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                          eu pede mollis pretium. Pellentesque ut neque. </p>
-                  </div>
-              </li>
-          </ul>
-      </div>
-  </div>
+
     );
   }
 }

@@ -15,8 +15,8 @@ import './Home.css';
 class Main extends Component {
   render() {
     return (
-      <HashRouter>
-        <div
+
+      /*  <div
         style={{
           position: "absolute",
           top: 0,
@@ -28,13 +28,15 @@ class Main extends Component {
         <ParticleComponent />
         <div
           style={{
-            top: 0,
+      top: 0,
             left: 0,
             height: "100vh"
           }}
-        >
+        >*/
+      <HashRouter>
+        <div>
           <nav>
-            <ul className="header">
+            <ul className="navbar">
               <li><NavLink to="/">Accueil</NavLink></li>
               <li><NavLink to="/background">Parcours</NavLink></li>
               <li><NavLink to="/skills">Compétences</NavLink></li>
@@ -50,7 +52,6 @@ class Main extends Component {
             <Route path="/contact" component={Contact}/>
           </div>
         </div>
-      </div>
       </HashRouter>
     );
   }
