@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/react_spa/static/media/diploma.4ec6934e.png"
   },
   {
-    "revision": "789a3cc36f4ea66186d8793c4a127d76",
-    "url": "/react_spa/static/media/economie.789a3cc3.jpg"
-  },
-  {
     "revision": "59220dcb9dccd70f9e31de155709dafa",
     "url": "/react_spa/static/media/programmation-informatique.59220dcb.jpg"
   },
   {
     "revision": "38e278868b027bf6a9bb2311bc4e01bc",
     "url": "/react_spa/static/media/mdr-home.38e27886.jpg"
+  },
+  {
+    "revision": "789a3cc36f4ea66186d8793c4a127d76",
+    "url": "/react_spa/static/media/economie.789a3cc3.jpg"
   },
   {
     "revision": "a7fc19d7719f03b403aef0dd038d505b",
@@ -80,12 +80,12 @@ self.__precacheManifest = [
     "url": "/react_spa/static/media/CV.a3367511.pdf"
   },
   {
-    "revision": "777f7b0ba54a3e6178e2d32677a29c0b",
-    "url": "/react_spa/static/media/alienleague.777f7b0b.ttf"
-  },
-  {
     "revision": "b42e56f41ae6aec30a648b2ef5f10064",
     "url": "/react_spa/static/media/mist_3.b42e56f4.jpg"
+  },
+  {
+    "revision": "777f7b0ba54a3e6178e2d32677a29c0b",
+    "url": "/react_spa/static/media/alienleague.777f7b0b.ttf"
   },
   {
     "revision": "820eaf2b6d7d6fc736af2347149be56b",
