@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/react_spa/static/media/diploma.4ec6934e.png"
   },
   {
-    "revision": "59220dcb9dccd70f9e31de155709dafa",
-    "url": "/react_spa/static/media/programmation-informatique.59220dcb.jpg"
-  },
-  {
     "revision": "789a3cc36f4ea66186d8793c4a127d76",
     "url": "/react_spa/static/media/economie.789a3cc3.jpg"
+  },
+  {
+    "revision": "59220dcb9dccd70f9e31de155709dafa",
+    "url": "/react_spa/static/media/programmation-informatique.59220dcb.jpg"
   },
   {
     "revision": "38e278868b027bf6a9bb2311bc4e01bc",
