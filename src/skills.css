@@ -16,7 +16,7 @@
   overflow: hidden;
 }
 h2 {
-  margin: 1%;
+  margin: 0.5%;
 }
 img {
   display: block;
@@ -25,4 +25,16 @@ img {
   margin-bottom: 8px;
   max-width: 30%;
   max-height: 30%;
+}
+#other {
+  color: #fff;
+}
+
+.specify .dot:hover {
+  visibility: visible;
+  height: 200px;
+  width: 200px;
+}
+#sum {
+  visibility: hidden;
 }
