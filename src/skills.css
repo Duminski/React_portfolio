@@ -30,11 +30,11 @@ img {
   color: #fff;
 }
 
-.specify .dot:hover {
+/*.specify .dot:hover {
   visibility: visible;
   height: 200px;
   width: 200px;
-}
+}*/
 #sum {
   visibility: hidden;
 }
